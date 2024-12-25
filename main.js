@@ -33,4 +33,4 @@ setInterval(async () => {
 
     // Update the status of detected processes
     detectedProcesses = actualProcesses;
-}, 5000);
+}, 8000);
