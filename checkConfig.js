@@ -19,6 +19,7 @@ export default function checkConfig(){
         }
         fs.writeFileSync(configFilePath, JSON.stringify(initialConfig, null, 4));
         console.log('Config file created:', configFilePath);
-        return initialConfig;
+        console.log('Edit the config file and add your processes (games) and her frl (frame rate limit). Then start the program again.');
+        process.exit(0);
     }
 }
